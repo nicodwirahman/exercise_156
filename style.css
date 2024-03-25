@@ -1,13 +1,13 @@
-/* CSS untuk styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: chocolate; /* Ubah warna latar belakang menjadi hijau */
-    position: relative; /* Tambahkan posisi relatif */
+    background-color: chocolate; 
+    position: relative; 
   }
   
-  /* Tambahkan pseudo-element ::after */
+ 
   body::after {
     content: "";
     position: absolute;
@@ -15,37 +15,37 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    border: 10px solid black; /* Tambahkan border dengan warna hijau (#008000) */
+    border: 10px solid black; 
   }
   
   .container {
     text-align: center;
-    margin-top: 50px; /* Mengurangi jarak dari bagian atas */
+    margin-top: 70px; 
   }
   
   .judul {
     border: 3px solid #000;
-    padding: 10px 20px; /* Mengurangi padding */
+    padding: 10px 100px;
     display: inline-block;
   }
   
   .konten {
-    width: 70%;
+    width: 700px;
+    height: 350px;
     margin: 20px auto;
-    border: 2px solid #000;
-    padding: 20px;
+    border: 4px solid #000; 
   }
   
   .foto-container {
-    width: 70%;
-    margin: 20px auto;
+    width: 20%;
+    margin: 10px auto;
     border: 2px solid #000;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
   
   .foto {
-    width: 200px; /* Sesuaikan ukuran foto sesuai kebutuhan */
+    width: 150px; 
     height: auto;
     display: block;
     margin: 0 auto;
@@ -53,7 +53,7 @@ body {
   
   .tombol {
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: black;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -62,11 +62,11 @@ body {
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
-    border-radius: 5px; /* Memberi sudut membulat pada tombol */
-    transition: background-color 0.3s; /* Efek transisi untuk perubahan warna latar belakang tombol */
+    border-radius: 5px; 
+    transition: background-color 0.3s; /
   }
   
   .tombol:hover {
-    background-color: #45a049; /* Mengubah warna latar belakang saat tombol dihover */
+    background-color: green; 
   }
   
