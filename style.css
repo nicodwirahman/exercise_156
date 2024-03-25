@@ -1,32 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Keluarga</title>
-<link rel="stylesheet" href="style.css">
-<style>
-  
-  body {
+/* CSS untuk styling */
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
+  
   .container {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 50px; /* Mengurangi jarak dari bagian atas */
   }
+  
   .judul {
-    border: 5px solid #000;
-    padding: 5px 20px;
+    border: 3px solid #000;
+    padding: 10px 20px; /* Mengurangi padding */
     display: inline-block;
   }
+  
   .konten {
     width: 70%;
     margin: 20px auto;
     border: 2px solid #000;
     padding: 20px;
   }
+  
   .foto-container {
     width: 70%;
     margin: 20px auto;
@@ -34,12 +30,14 @@
     padding: 20px;
     text-align: center;
   }
+  
   .foto {
     width: 200px; /* Sesuaikan ukuran foto sesuai kebutuhan */
     height: auto;
     display: block;
     margin: 0 auto;
   }
+  
   .tombol {
     display: inline-block;
     background-color: #4CAF50;
@@ -51,24 +49,11 @@
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
+    border-radius: 5px; /* Memberi sudut membulat pada tombol */
+    transition: background-color 0.3s; /* Efek transisi untuk perubahan warna latar belakang tombol */
   }
-</style>
-</head>
-<body>
-
-<div class="container">
-  <h1 class="judul">Keluarga</h1>
-</div>
-
-<div class="konten">
-  <p>Ini adalah kotak yang agak besar untuk diisi konten di bawah judul "Keluarga". Anda dapat menambahkan lebih banyak konten di sini.</p>
-</div>
-
-<div class="foto-container">
-  <h2>Tempat Foto</h2>
-  <img src="nanda.jpg" alt="Foto Keluarga" class="foto">
-  <button class="tombol" onclick="alert('Tombol diklik!')">Klik Disini</button>
-</div>
-
-</body>
-</html>
+  
+  .tombol:hover {
+    background-color: #45a049; /* Mengubah warna latar belakang saat tombol dihover */
+  }
+  
